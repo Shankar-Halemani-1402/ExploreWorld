@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body1{
+    background-color: rgb(36, 35, 35);
+    width: 1550px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 300px;
+    height: 50px;
+    margin: 20px 20px 20px 20px;
+}
+
+.top{
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border: 2px black solid;
+    border-radius: 50px;
+    background-color: rgb(132, 127, 127);
+    box-sizing: 20px;
+    
+}
+
+.mainhead{
+    top: 40px;
+    padding-right: 10px;
+    font-weight: 500;
+    
+}
+.top a{
+    text-decoration: none;
+}
+
+.top a:hover{
+    opacity: 0.6;
+}
+
+section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    background-color: #ededed;
+}
+.foter{
+    padding: 40px 0;
+    background-color: #fff;
+}
+.foter .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.foter .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.foter .social a:hover{
+    opacity: 0.9;
+}
+
+.foter ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.foter ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.foter ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.foter ul li a:hover{
+    opacity: 1;
+}
+.foter .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.font{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: #ededed;
+}
+.slider-c{
+    height: 500px;
+    width: 100%;
+    background-image: url(Cambodia/Angkor-Wat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-c;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-c{
+    0%{background-image: url(Cambodia/Angkor-Wat.jpg);}
+    20%{background-image: url(Cambodia/Boor-Hill-Station.jpg);}
+    40%{background-image: url(Cambodia/Killing-Fields.jpg);}
+    60%{background-image: url(Cambodia/preah-vihear.jpg);}
+    80%{background-image: url(Cambodia/Tuol-Sleng-Genocide-Museum.jpg);}
+}
+
+
+.slider-eg{
+    height: 500px;
+    width: 100%;
+    background-image: url(Egypt/Abu-Simbel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-eg;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-eg{
+    0%{background-image: url(Egypt/Abu-Simbel.jpg);}
+    20%{background-image: url(Egypt/El-Alamein-Battlefield.jpg);}
+    40%{background-image: url(Egypt/Giza.jpg);}
+    60%{background-image: url(Egypt/Saqqara.jpg);}
+    80%{background-image: url(Egypt/Villa-of-the-Birds.jpg);}
+}
+
+
+.slider-en{
+    height: 500px;
+    width: 100%;
+    background-image: url(England/Bletchley_Park_Mansion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-en;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-en{
+    0%{background-image: url(England/Bletchley_Park_Mansion.jpg);}
+    20%{background-image: url(England/Hadrians-Wall.jpg);}
+    40%{background-image: url(England/Roman-Baths-–-Bath.jpg);}
+    60%{background-image: url(England/St-Pauls-Cathedral.jpg);}
+    80%{background-image: url(England/Stonehenge.jpg);}
+}
+
+
+.slider-ge{
+    height: 500px;
+    width: 100%;
+    background-image: url(Germany/Brandenburg-Gate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-ge;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-ge{
+    0%{background-image: url(Germany/Brandenburg-Gate.jpg);}
+    20%{background-image: url(Germany/Cologne-Cathedral.jpg);}
+    40%{background-image: url(Germany/Dachau-Concentration-camp.jpg);}
+    60%{background-image: url(Germany/lubeck-town-hall.jpg);}
+    80%{background-image: url(Germany/Reichstag.jpg);}
+}
+
+
+.slider-gr{
+    height: 500px;
+    width: 100%;
+    background-image: url(Greece/Acropolis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-gr;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-gr{
+    0%{background-image: url(Greece/Acropolis.jpg);}
+    20%{background-image: url(Greece/Akrotiri.jpg);}
+    40%{background-image: url(Greece/Mycenae.jpg);}
+    60%{background-image: url(Greece/Mystras.jpg);}
+    80%{background-image: url(Greece/Temple-of-Hephaestus.jpg);}
+}
+
+
+.slider-in{
+    height: 500px;
+    width: 100%;
+    background-image: url(India/Agra-Fort.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-in;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-in{
+    0%{background-image: url(India/Agra-Fort.jpg);}
+    20%{background-image: url(India/Brihadisvara-Temple.jpg);}
+    40%{background-image: url(India/Hawa-Mahal.jpg);}
+    60%{background-image: url(India/red-fort.jpg);}
+    80%{background-image: url(India/Taj-Mahal.jpg);}
+}
+
+
+.slider-it{
+    height: 500px;
+    width: 100%;
+    background-image: url(Italy/Hadrians-Villa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-it;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-it{
+    0%{background-image: url(Italy/Hadrians-Villa.jpg);}
+    20%{background-image: url(Italy/Leaning-Tower-of-Pisa.jpg);}
+    40%{background-image: url(Italy/Palazzo-Vecchio.jpg);}
+    60%{background-image: url(Italy/The-Doges-Palace.jpg);}
+    80%{background-image: url(Italy/Vatican-Museums.jpg);}
+}
+
+
+.slider-j{
+    height: 500px;
+    width: 100%;
+    background-image: url(Jordan/Jerash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-j;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-j{
+    0%{background-image: url(Jordan/Jerash.jpg);}
+    20%{background-image: url(Jordan/Petra.jpg);}
+    40%{background-image: url(Jordan/qasr-amra.jpg);}
+    60%{background-image: url(Jordan/Qasr-Bashir.jpg);}
+    80%{background-image: url(Jordan/Umm-Qais.jpg);}
+}
+
+
+.slider-m{
+    height: 500px;
+    width: 100%;
+    background-image: url(Mexico/Castillo-de-Chapultepec.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-m;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-m{
+    0%{background-image: url(Mexico/Castillo-de-Chapultepec.jpg);}
+    20%{background-image: url(Mexico/Chichen-Itza.jpg);}
+    40%{background-image: url(Mexico/Tenochtitlan.jpg);}
+    60%{background-image: url(Mexico/Teotihuacan.jpg);}
+    80%{background-image: url(Mexico/tulum.jpg);}
+}
+
+
+.slider-p{
+    height: 500px;
+    width: 100%;
+    background-image: url(Peru/Chan-Chan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: images-p;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes images-p{
+    0%{background-image: url(Peru/Chan-Chan.jpg);}
+    20%{background-image: url(Peru/Choquequirao.jpg);}
+    40%{background-image: url(Peru/kuepal.jpg);}
+    60%{background-image: url(Peru/Machu-Picchu.jpg);}
+    80%{background-image: url(Peru/nazca-lines.jpg);}
+}
